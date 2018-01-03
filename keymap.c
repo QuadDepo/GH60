@@ -22,26 +22,6 @@ enum {
  X_TAP_DANCE
 };
 
-void dance_cln_finished (qk_tap_dance_state_t *state, void *user_data) {
-  if (state->count == 1) {
-    register_code (KC_LALT);
-    register_code (KC_SPC);
-  } else {
-    register_code (KC_GRAVE);
-  }
-};
- dance_cln_reset (qk_tap_dance_state_t *state, void *user_data) {
-  if (state->count == 1) {
-    register_code (KC_LALT);
-    register_code (KC_SPC);
-  } else {
-    unregister_code (KC_GRAVE);
-  }
-};
-
-qk_tap_dance_action_t tap_dance_actions[] = {
- [I_TERM] = ACTION_TAP_DANCE_FN_ADVANCED (NULL, dance_cln_finished, dance_cln_reset)
-};
 
 // Fillers to make layering more clear
 #define ______ KC_TRNS
