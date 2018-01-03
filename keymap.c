@@ -13,17 +13,6 @@ enum planck_keycodes {
   DEFAULT = SAFE_RANGE
 };
 
-// Enums defined for all examples:
-enum {
- CT_SE = 0,
- I_TERM,
- CT_EGG,
- CT_FLSH,
- X_TAP_DANCE
-};
-
-
-
 // Fillers to make layering more clear
 #define ______ KC_TRNS
 
