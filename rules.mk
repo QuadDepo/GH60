@@ -27,7 +27,7 @@
 # make flip-ee = Download the eeprom file to the device, using Atmel FLIP
 #                (must have Atmel FLIP installed).
 #
-# make debug = Start either simulavr or avarice as specified for debugging, 
+# make debug = Start either simulavr or avarice as specified for debugging,
 #              with avr-gdb or avr-insight as the front end for debugging.
 #
 # make filename.s = Just compile filename.c into the assembler code only.
@@ -105,8 +105,8 @@ NKRO_ENABLE = yes		    # USB Nkey Rollover - if this doesn't work, see here: htt
 # UNICODE_ENABLE = YES		# Unicode
 # BLUETOOTH_ENABLE = yes	# Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE = yes    # Enable RGB Underglow
+TAP_DANCE_ENABLE = yes
 
 ifndef QUANTUM_DIR
 	include ../../../../Makefile
 endif
-
