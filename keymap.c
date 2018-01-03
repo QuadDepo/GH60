@@ -16,7 +16,7 @@ enum planck_keycodes {
 // Enums defined for all examples:
 enum {
  CT_SE = 0,
- CT_CLN,
+ I_TERM,
  CT_EGG,
  CT_FLSH,
  X_TAP_DANCE
