@@ -105,6 +105,7 @@ NKRO_ENABLE = yes		    # USB Nkey Rollover - if this doesn't work, see here: htt
 # UNICODE_ENABLE = YES		# Unicode
 # BLUETOOTH_ENABLE = yes	# Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE = yes    # Enable RGB Underglow
+TAP_DANCE_ENABLE = yes
 
 ifndef QUANTUM_DIR
 	include ../../../../Makefile
